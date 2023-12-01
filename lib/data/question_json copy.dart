@@ -7,7 +7,7 @@ List<QuizQuestion> questions = [];
 List<QuizQuestion> getQuestions() {
   try {
    
-    File file = File('F:/ICET/ICM103/FLUTTER/quiz_application/lib/data/json/quiz_json.json');
+    File file = File('lib/data/json/quiz_json.json');
     String jsonString = file.readAsStringSync();
 
 

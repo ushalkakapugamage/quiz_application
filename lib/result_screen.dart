@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_application/data/question_json copy.dart';
+import 'package:quiz_application/data/question_json.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen(
