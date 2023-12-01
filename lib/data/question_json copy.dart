@@ -6,11 +6,11 @@ List<QuizQuestion> questions = [];
 
 List<QuizQuestion> getQuestions() {
   try {
-    // Read the file
+   
     File file = File('F:/ICET/ICM103/FLUTTER/quiz_application/lib/data/json/quiz_json.json');
     String jsonString = file.readAsStringSync();
 
-    // Parse the contents (assuming it contains JSON in this example)
+
     List<dynamic> jsonData = json.decode(jsonString);
     final List<dynamic> decodedJson = json.decode(jsonString);
 
@@ -21,7 +21,7 @@ List<QuizQuestion> getQuestions() {
     );
   }).toList();
 
-    // Use the data as needed
+    
     print(jsonData);
   } catch (e) {
     print('Error reading file: $e');
